@@ -1,0 +1,67 @@
+table {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+tr {
+    margin: 2px;
+    background: #e8e2e2;
+}
+
+tr:nth-child(2n) {
+    background: #ffffff;
+}
+
+thead tr, .header-on-left th {
+    background: #706d6d;
+}
+
+td, th {
+    padding: 6px;
+}
+
+.fajny {
+    text-align: center;
+    text: center;
+}
+
+button {
+    width: 100%;
+    border: solid black 2px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: red;
+}
+
+.added {
+    width: auto;
+}
+
+
+.error {
+    background: red;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.smiech {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+fieldset {
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    width: 400px;
+    text-align: left;
+}
+
+.top {
+    margin-top: 10px;
+}

@@ -1,0 +1,41 @@
+<h2>Lista klientów</h2>
+<table>
+    <thead>
+        <tr class="smiech">
+            <th>
+                ID
+            </th>
+            <th>
+                Title
+            </th>
+            <th>
+                Usuń
+            </th>
+            <th>
+                Edycja
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each plot}}
+        <tr>
+            <th>
+                <a href="/client/{{this.id}}">{{this.id}}</a>
+            </th>
+            <td>
+                {{this.title}}
+            </td>
+            <td>
+                {{> go-to-deleted}}
+            </td>
+            <td>
+                {{> go-to-edit}}
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+<p>
+{{> go-yo-add}}
+</p>

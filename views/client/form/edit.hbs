@@ -1,0 +1,15 @@
+<h2>Edytujesz zadanie o ID: <em style="color: crimson">{{id}}</em></h2>
+<form method="POST" action="/client/{{id}}?_method=PUT">
+    <label>
+        <p>
+            <h3>Treść zadania:</h3>
+        </p>
+        <p>
+            <textarea name="newTitle" id="" cols="30" rows="10">{{title}}</textarea>
+        </p>
+    </label>
+
+    <p>
+        <button type="submit">Zapisz</button>
+    </p>
+</form>

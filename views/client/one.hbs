@@ -1,0 +1,26 @@
+<h2>Zadanie <em style="color: crimson">{{id}}</em></h2>
+<table class="header-on-left">
+    <tbody>
+    <tr>
+        <th>
+            Treść zadania
+        </th>
+        <td>
+            {{title}}
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<p>
+
+</p>
+<div style="display: flex">
+    {{> go-to-edit}}
+    {{> go-yo-add}}
+    {{> go-to-deleted}}
+</div>
+
+<p>
+    {{> go-to-clients}}
+</p>

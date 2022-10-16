@@ -1,0 +1,19 @@
+<h2>Dodawanie nowego zadania do wykonania</h2>
+<form method="POST" action="/client">
+    <label>
+        <p>
+            Zadanie
+        </p>
+        <p>
+            <input type="text" name="title" required>
+        </p>
+    </label>
+
+    <p>
+        <button type="submit">Zapisz</button>
+    </p>
+</form>
+
+<p>
+    {{> go-to-clients}}
+</p>
